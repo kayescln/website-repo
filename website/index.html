@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Restaurant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+    <header>
+        <h1> COZY CORNER </h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <img src="./images/restaurant.jpg" alt="Restaurant Hero Image">
+        <div class="hero-text">
+            <h2>Welcome To My Restaurant</h2>
+            <p> Can't shake those cravings ?  We've got the cure .</p>
+        </div>
+    </section>
+
+    <section id="menu">
+        <h2>Our Menu</h2>
+        <div class="menu-item">
+            <h3> Main dish</h3>
+            <img src="./images/vege.jpg" alt="Dish 1">
+            <h4>Dish 1</h4>
+            <p> Vegetable Stir Fry</p>
+            <p>$10.99</p>
+            <img src="./images/spag.jpg" alt="Dish 2">
+            <h3>Dish 2</h3>
+            <p> Spaghetti Bolognese</p>
+            <p>$12.99</p>
+            <img src="./images/burger.jpg" alt="Dish 3">
+            <h3>Dish 3</h3>
+            <p> Cheese Burger</p>
+            <p>$9.29</p>
+            <img src="./images/chicken.jpg" alt="Dish 4">
+            <h3>Dish 4</h3>
+            <p> Grilled Chicken</p>
+            <p>$15.49</p>
+            <img src="./images/salad.jpg" alt="Dish 5">
+            <h3>Dish 5</h3>
+            <p> Caesar Salad</p>
+            <p>$8.99</p>
+
+            <h2> Drinks</h2>
+
+            <img src="./images/water.jpg" alt=" Drink 1">
+            <h3>Drink 1</h3>
+            <p> Water</p>
+            <p>$10.99</p>
+            <img src="./images/iced tea.jpg" alt="Drink 2">
+            <h3>Drink 2</h3>
+            <p> Iced Tea</p>
+            <p>$12.99</p>
+            <img src="./images/lemonade.jpg" alt="Drink 3">
+            <h3>Drink 3</h3>
+            <p> Lemonade </p>
+            <p>$13.99</p>
+            <img src="./images/cocktail.jpg" alt="Drink 4">
+            <h3>Drink 4</h3>
+            <p> Cocktail</p>
+            <p>$15.99</p>
+            <img src="./images/champagne.jpg" alt="Drink 5">
+            <h3>Drink 5</h3>
+            <p> Champagne</p>
+            <p>$30.99</p>
+
+            <h2> Desserts</h2>
+
+            <img src="./images/ice cream.jpg" alt="Dessert 1">
+            <h3>Dessert 1</h3>
+            <p> Ice Cream</p>
+            <p>$20.99</p>
+
+            <img src="./images/iced tea.jpg" alt="Dessert 2">
+            <h3>Dessert 2</h3>
+            <p> Iced Tea</p>
+            <p>$15.99</p>
+
+            <img src="./images/chocolate cake.jpg" alt="Dessert 3">
+            <h3>Dessert 3</h3>
+            <p> Chocolate Cake</p>
+            <p>$25.99</p>
+
+
+        </div>
+        </section>
+<h2> Reservation Form</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"><br><br>
+        
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br><br>
+        
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone"><br><br>
+        
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date"><br><br>
+        
+            <label for="time">Time:</label>
+            <input type="time" id="time" name="time"><br><br>
+        
+            <label for="partySize">Party Size:</label>
+            <input type="number" id="partySize" name="partySize" min="1"><br><br>
+        
+            <label for="message">Message:</label>
+            <textarea id="message" name="message"></textarea><br><br>
+        
+            <input type="submit" value="Submit Reservation">
+          </form>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>"Experience a culinary adventure at the Cozy Corner, where we blend different cuisine flavors with a modern twist. Our chefs source the freshest ingredients to create dishes that tantalize your taste buds.  From our salad to our handcrafted cocktails, every bite and sip is a memorable experience. 
+        Relax in our Cozy Corner ambiance and let our friendly staff take care of the rest.
+            Whether you're celebrating a special occasion or simply enjoying a night out,
+            Cozy Corner is the perfect place to create lasting memories."
+        </p>
+    </section>
+
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>We'd love to hear from you!</p>
+        <form action="mailto:your_email@example.com" method="post" enctype="text/plain">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+    <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <button type="submit">Submit</button>
+
+</form>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 My Restaurant</p>
+    </footer>
+
+    <script src="script.js"> </s>
+</body>
+</html>
